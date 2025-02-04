@@ -1,0 +1,1 @@
+This repository demonstrates a common TypeScript error: Type 'string | null' is not assignable to type 'string'.  The bug.ts file shows the error, and bugSolution.ts provides the solution.  The error arises when a function expects a string, but the input can also be null. The solution involves handling the null case explicitly, as demonstrated in bugSolution.ts.
